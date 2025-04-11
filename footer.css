@@ -1,0 +1,15 @@
+
+.footer{
+    background: var(--cor-de-fundo-header);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 4em;
+    text-align: center;
+}
+
+.Amanda{
+    display: grid;
+    place-items: center; /* Centraliza verticalmente e horizontalmente */
+    margin-bottom: 3em;
+}

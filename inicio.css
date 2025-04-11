@@ -1,0 +1,33 @@
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+
+.botao__inicio{
+    margin: 3em;
+}
+
+.botao{
+    width: 20%; /* Defina a largura da section */
+    padding: 1em 4em;
+    margin: 0 auto; /* Centraliza a section horizontalmente */
+    display: flex;
+    flex-direction: column; /* Organiza os botões em coluna */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    align-items: center; /* Centraliza os botões verticalmente */ 
+    margin-bottom: 50px;
+    font-family: var(--fonte);
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--cor-botao);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte);
+}
+
