@@ -1,0 +1,15 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("inicio.css");
+@import url("footer.css");
+
+:root{
+    --cor-da-fonte: #2D2D2D;
+    --cor-de-fundo-header: #A9B784;
+    --cor-barra-perquisa: #D9D9D9;
+    --fonte-principal: "kufam";
+    --cor-de-fundo: #E3D3BA;
+    --cor-botao: #D79149;
+}
+
+

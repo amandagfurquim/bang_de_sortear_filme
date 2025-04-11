@@ -1,0 +1,39 @@
+
+.banner{
+    background-image: url('../img/totoro.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+  }
+
+
+.banner__titulo{
+    color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.banner__perquisa{
+    background-color: var(--cor-barra-perquisa);
+    opacity: 0.5;
+    border: 1px solid;
+    color: var(--cor-da-fonte);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    border-radius: 24px;
+    padding: 1em;
+    width: 80%;
+    border: none;
+    outline: none;   
+    margin-top: 0.5em; 
+}
+
+.banner__perquisa::placeholder{
+    color: var(--cor-da-fonte);
+    text-align: center;
+    font-family: var(--fonte-principal);
+}

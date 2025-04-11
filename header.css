@@ -1,0 +1,26 @@
+
+header{
+    background-color: var(--cor-de-fundo-header);
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.botao__voltar{
+    color: var(--cor-da-fonte);
+    padding: 2em;
+}
+
+.botao__person{
+    color: var(--cor-da-fonte);
+    padding: 2em;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+}
